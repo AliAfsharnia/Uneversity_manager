@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace LOL
 {
-    public partial class frmMain : Form
+    public partial class frmEditSuff : Form
     {
-        public frmMain()
+        public frmEditSuff()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmEditSuff_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnAddEnvironmentr_Click(object sender, EventArgs e)
+        private void btnEditStuff_Click(object sender, EventArgs e)
         {
 
         }

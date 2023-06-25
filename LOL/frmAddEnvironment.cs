@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace LOL
 {
-    public partial class frmMain : Form
+    public partial class frmAddEnvironment : Form
     {
-        public frmMain()
+        public frmAddEnvironment()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnAddEnvironmentr_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

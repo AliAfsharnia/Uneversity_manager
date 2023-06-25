@@ -49,16 +49,98 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBConnection.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddStaff.Designer.cs">
+      <DependentUpon>frmAddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddStuff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddStuff.Designer.cs">
+      <DependentUpon>frmAddStuff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteEnvironment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteEnvironment.Designer.cs">
+      <DependentUpon>frmDeleteEnvironment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEnvironment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEnvironment.Designer.cs">
+      <DependentUpon>frmAddEnvironment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteStaff.Designer.cs">
+      <DependentUpon>frmDeleteStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteStuff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteStuff.Designer.cs">
+      <DependentUpon>frmDeleteStuff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditEnvironment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditEnvironment.Designer.cs">
+      <DependentUpon>frmEditEnvironment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditStaff.Designer.cs">
+      <DependentUpon>frmEditStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditSuff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditSuff.Designer.cs">
+      <DependentUpon>frmEditSuff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddStaff.resx">
+      <DependentUpon>frmAddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddStuff.resx">
+      <DependentUpon>frmAddStuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteEnvironment.resx">
+      <DependentUpon>frmDeleteEnvironment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEnvironment.resx">
+      <DependentUpon>frmAddEnvironment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteStaff.resx">
+      <DependentUpon>frmDeleteStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteStuff.resx">
+      <DependentUpon>frmDeleteStuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditEnvironment.resx">
+      <DependentUpon>frmEditEnvironment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditStaff.resx">
+      <DependentUpon>frmEditStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditSuff.resx">
+      <DependentUpon>frmEditSuff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
